@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
+/* * means select every thing help to desgin*/
+
+/*{outline:1px solid red;}*/
+body{
+    background-color:#82ddb5;
+    background-image:url("img/illustration.gif");
+    
+    background-repeat: no-repeat;
+    background-position: center 280px,left top;
+    background-size: 800px,auto;
+    font-family: "Quicksand",sans-serif;
+    margin:0;
+    
+    
+}
+/* */
+#nav{
+    background-color: #6b9;
+    padding:20px 0;
+    color:#fff;
+    font-weight: bold;
+    text-align:center;
+    word-spacing: 2em;
+    border-bottom: 2px dashed #487;/
+    
+}
+
+#header {
+    text-align:center;
+    margin-top: :40px;
+    
+}
+#logo{
+    max-width: 360px;
+    width:100%;
+    
+}
+
+#description,#date{
+        max-width: 220px;
+    width:100%;}
+
+    .register_btn{
+        background-color: #e43;
+        border:2px dashed #a43;
+        border-radius: 2em;
+        color:#fff;
+        display: inline-block;
+            font-weight:bold;
+        margin-top:25px;
+        padding: 15px 30px;
+        
+ }
+#what {
+    
+    background-color:rgba(200,240,220,0.9);
+    }
+#what p
+{
+    width:100%;
+        max-width:600px;
+
+margin-left:auto;
+margin-right:auto;
+}
+
+#what h1 {
+    text-align:center;
+    padding:25px o;
+    color: #386;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
