@@ -1,0 +1,27 @@
+.red{
+             color:red;
+         }
+#box1{
+    background-color:yellow;
+   /* can only one size*/
+    height:100px;
+    
+    width:200px;
+    border:10px solid red;
+    
+    /* margin auto center things */
+    
+    margin-left:50px;
+  
+    /*padding add width*/
+    
+    padding-left:10px;
+    
+}
+#box2{
+    background-color:olive;
+    width:100px;
+    height:100px;
+    margin-top:45px;   
+    
+}
