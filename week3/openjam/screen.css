@@ -38,31 +38,34 @@ body{
 }
 
 #description,#date{
-        max-width: 220px;
+    max-width: 220px;
     width:100%;}
 
-    .register_btn{
-        background-color: #e43;
-        border:2px dashed #a43;
-        border-radius: 2em;
-        color:#fff;
-        display: inline-block;
-            font-weight:bold;
-        margin-top:25px;
-        padding: 15px 30px;
+.register_btn{
+    background-color: #e43;
+    border:2px dashed #a43;
+    border-radius: 2em;
+    color:#fff;
+    display: inline-block;
+    font-weight:bold;
+    margin-top:25px;
+    padding: 15px 30px;
         
  }
 #what {
-    
+    margin-top:425px;
     background-color:rgba(200,240,220,0.9);
-    }
-#what p
-{
-    width:100%;
-        max-width:600px;
 
-margin-left:auto;
-margin-right:auto;
+    
+    }
+#what p{
+    width:100%;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    
+    
+    color: #386;
 }
 
 #what h1 {
@@ -71,7 +74,66 @@ margin-right:auto;
     color: #386;
     
 }
+#what h2 {
+    text-align:center;
+    padding:25px o;
+    color: #386;
 
+    /*font-size:? */ 
+    
+    
+}
+#sponsor_logos img{ 
+    max-width:200px; 
+    margin-left: 60px;
+    
+    /*size of image = max-width: px or %
+      indent= margin:px*/
+ }
+
+#why{
+    background-color:rgba(200,240,230,3.7);
+    margin-bottom: 100px;
+    
+}
+
+#why p{
+    width:100%;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+    color: #386;
+    
+}
+#why h1{
+   
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    color: #386;
+    
+}
+    
+#where{margin-top:-143px;
+    
+}
+#where h1{ 
+    text-align:center;
+    color:#b55eac;
+    margin-top:
+    
+}
+#where p{
+    color:#b55eac;
+    font-weight: bold;
+      text-align:left;
+}
+
+p img{ 
+    max-width:1265px
+    
+   
+}
 
 
 
