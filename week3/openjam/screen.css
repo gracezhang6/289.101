@@ -55,6 +55,7 @@ body{
 #what {
     margin-top:425px;
     background-color:rgba(200,240,220,0.9);
+    padding-bottom: 30px;
 
     
     }
@@ -63,12 +64,11 @@ body{
     max-width:600px;
     margin-left:auto;
     margin-right:auto;
-    
-    
     color: #386;
 }
 
 #what h1 {
+    padding-top: 30px;
     text-align:center;
     padding:25px o;
     color: #386;
@@ -76,25 +76,25 @@ body{
 }
 #what h2 {
     text-align:center;
-    padding:25px o;
     color: #386;
-
-    /*font-size:? */ 
-    
-    
+    font-size: 20px;
 }
+
 #sponsor_logos img{ 
     max-width:200px; 
     margin-left: 60px;
+    padding-bottom: 50px
+    
     
     /*size of image = max-width: px or %
       indent= margin:px*/
  }
 
 #why{
+    padding-top: 30px;
     background-color:rgba(200,240,230,3.7);
-    margin-bottom: 100px;
-    
+    padding-bottom: 30px;
+
 }
 
 #why p{
@@ -109,31 +109,98 @@ body{
    
     text-align:center;
     margin:0px;
-    padding:0px;
     color: #386;
     
 }
     
-#where{margin-top:-143px;
-    
-}
+#where{
+    padding-top: 50px;
+    background-image:url("img/map.gif");
+    background-size: 1300px,auto;
+    padding-bottom: 430px;
+    }
 #where h1{ 
+    
     text-align:center;
     color:#b55eac;
-    margin-top:
-    
 }
 #where p{
     color:#b55eac;
-    font-weight: bold;
-      text-align:left;
+    font-weight: bold;   
+    position: absolute; 
+    text-align: right;
+    left:650px;
+    /*maps needs scale up?*/
+}   
+
+#when {
+   padding-top: 30px;
+    color:#fff;
+    background-image:url("img/wires.png");
+    background-color:#1fa19a;
+     background-size: 450px;
+     background-repeat:repeat;
+   padding-bottom: 30px;
+   
+    
+
+}
+#when h1{
+    
+     text-align:center;
 }
 
-p img{ 
-    max-width:1265px
+#when h2{
+     text-align:center;
     
-   
 }
+#when h3{
+     text-align:center;
+     border-top: 2px dashed #fff;/
+     /*why friday is not in dash line?*/
+    
+}
+
+#when ul{
+  
+    margin-left: 250px;
+    
+}
+
+#who {
+     padding-top: 30px;
+     background-color: #ebe9df;
+     text-align:center;
+     color:#1fa19a;
+     padding-bottom: 30px;
+  
+    
+}
+
+#who p{
+    text-align: left;
+    width:100%;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*first shoter than second */
+
+#footer {
+    padding-top: 30px;
+    max-width:50px; 
+    padding-left: 450px;
+    line-height: 100px;
+    justify-content:space-between;
+    display:flex;
+    margin-bottom:50px; 
+    
+}
+
+#footer img{
+    margin: 0 10px;
+} 
+
 
 
 
