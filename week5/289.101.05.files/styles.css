@@ -3,6 +3,11 @@
 *{
     outline:1px dotted lime;
 }
+@media screen and(max-width: 480px)
+{body{
+    
+    background-color:green;
+    }}
 
 body{
     background-color#F2F2F2;
@@ -58,8 +63,7 @@ body{
 }
 .banner img{
 max-width: 780px;
-    width:90px;
-    
+    width: 90%;
     }
 
 
