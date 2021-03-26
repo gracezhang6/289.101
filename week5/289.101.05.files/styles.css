@@ -87,9 +87,9 @@ body{
   }
 
 #services-container{
+    padding: 30px;
     color:#666d89;
     height:400px;
-    padding:10px;
     background-color:F2F2F2;
 }
 #services{
@@ -111,6 +111,7 @@ body{
 }
 
 #portfolio-container{
+    padding: 30px;
     height:800px;
     background-color:2d303a;
     color:#666d89;
@@ -140,6 +141,7 @@ body{
 }
 
 #about{
+    padding: 30px;
     color:#666d89;
     height: 600px;
     background-color:F2F2F2;
@@ -150,4 +152,38 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+#getquote{
+    padding: 30px;
+    height: 600px;
+    background-color:#f06c64;
+    color:#f0d8d9;
+}
+#get-container {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    background-color: aquamarine;
+    }
 
+#info{
+    height:400px;
+    width: 65%;
+}
+input{
+    margin: 20px;
+    width: 80%;
+    height: 40px;
+    border:0;
+    background-color: #d6564f; 
+    border-radius: 10px;
+}
+textarea{
+    margin: 20px;
+    background-color: #d6564f;
+    width: 80%;
+    height: 150px;
+    color: 757575;
+    resize: none;
+}
+
+
+    
