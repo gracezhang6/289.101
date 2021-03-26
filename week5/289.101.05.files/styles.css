@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
 
-*{
+/*{
     outline:1px dotted lime;
 }
-
+*/
     
     background-color:green;
     }}
@@ -172,33 +172,35 @@ input{
     background-color: #d6564f; 
     border-radius: 10px;
 }
+
 textarea{
     margin: 20px;
     background-color: #d6564f;
     width: 80%;
     height: 150px;
-    color: 757575;
+    color:#f0d8d9;
     resize: none;
+    border: 0;
 }
 #contact-info{
     float: right;
     width:30%;
     }
+
 #end{
+    padding: 30px;
     height:100px;
     background-color:2C303B; 
-    margin: -20px;
     color:#666d89;
   
     }
 #end img{
+    padding:10px;
     float:right;
-    
-    
 }
 #end p{
     float:left;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-left: 50px;
 }
 
