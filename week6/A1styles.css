@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
 
+#menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  width: 8em;
+  margin-top: -2.5em;
+}
 .header{
     background-color: white;
     height:220px;
@@ -10,11 +17,17 @@
     text-align: center;
 }
 .links{
-    height:80px;
+    /*need change nav bar
+    position: fixed;
+    left:100px;*/
     font-size: 1.0rem;
     text-align: center;
     color:black;
     margin:40px;
+    background-color:peru;
+    padding:30px;
+
+
 }
 
 .links a{
@@ -46,18 +59,20 @@
 
 #currentWork{
     margin:90px;
-    height:480px;
+    height:500px;
     background-color: cornsilk;
-    color:black;
+    color:black; 
+    text-align: center;
+}
+#img-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    
+    grid-template-rows: 1fr 1fr;
 }
 
 #currentWork img{
     padding:10px;
-    width: 35%;
-    
+    width: 80%;
+
 
 }
