@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Train+One&display=swap');
+
+.header{
+    background-color: white;
+    height:220px;
+}
+.header h1{
+    color:black;
+    font-family: 'Train One', cursive;
+    text-align: center;
+}
+.links{
+    height:80px;
+    font-size: 1.0rem;
+    text-align: center;
+    color:black;
+    margin:40px;
+}
+
+.links a{
+    color:black;
+    text-decoration: none;
+    padding:50px;
+}
+
+#helloPage{
+    width:100%;    
+    height:400px;
+    background-color: white;
+    margin:40px;
+}
+
+#helloPage img{
+    float:left;
+    width: 40%;
+    margin-left: 60px;
+
+  
+}
+
+#intro{
+    width: 30%;
+    float: right;
+    margin-right: 150px;
+}
+
+#currentWork{
+    margin:90px;
+    height:480px;
+    background-color: cornsilk;
+    color:black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+}
+
+#currentWork img{
+    padding:10px;
+    width: 35%;
+    
+
+}
