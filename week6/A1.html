@@ -6,6 +6,7 @@
 <title>GraceZhang</title>
 <link rel="stylesheet"href="A1styles.css"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="processing.js"></script>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
         <img src="img/logo.png">
         <div class="links">
             
-            <a href="#header"><span style="color: red">HOME </span></a> 
+            <a href="#header"><span style="color: 9FAF70">HOME </span></a> 
                 &bull;
             <a href="#currentWork">PORIFOLIO</a> 
                   &bull;
@@ -26,11 +27,12 @@
             </div>
     </div>
     <div id="helloPage">
-        <div id="img">
-            <img src="img/gallary.jpeg">
+        <div id="hello-img">
+            <canvas data-processing-sources="processing/bobby.pde"></canvas>
+            <!-- <img src="img/hello.png"> -->
         </div>
         <div id="intro">
-            <h1>Hello There!</h1>
+            <h1>Wellcome To My Website!</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>
     </div>
@@ -45,8 +47,6 @@
             <img src="img/wb3.png"> 
         </div>
     </div>
-   
-   
     <div id="about">
         <div id="aboutText">
             <h1>About Me</h1>
@@ -56,19 +56,20 @@
             <img src="img/aboutme4.png">
         </div>
     </div>
+    <div id="line"></div>
     <div id="what-container">
         <div id=what>
             <div>
                 <img src="img/L1.jpeg">
                 <div class='what-text'>
-                    <h4>book</h4>
+                    <h4>Book</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                 </div>
             </div>
             <div>
                 <img src="img/L2.jpeg">
                 <div class='what-text'>
-                    <h4>Xiao long Bao</h4>
+                    <h4>Xiao Long Bao</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
                 </div>
             </div>
@@ -99,5 +100,9 @@
             <p>sq.zhang@icloud.com</p>
         </div>
     </div>
+    <div id="footer">
+    <p>Massey University Wellington</p>
+    
+</div>
   
 </body>
