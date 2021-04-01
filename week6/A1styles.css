@@ -2,10 +2,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Chango&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chango&family=Indie+Flower&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chango&family=Indie+Flower&family=Lexend&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 
 html,body {
     scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4 {
+    font-family: 'Lexend', sans-serif;
+    color:614421;
+}
+
+p {
+    font-family: 'Indie Flower', cursive;
 }
 
 .header{
@@ -48,7 +58,7 @@ html,body {
 
 #helloPage{
     width:100%;    
-    height:400px;
+    height: 500px;
     /* background-color:khaki;*/
 }
 
@@ -66,19 +76,14 @@ html,body {
     padding:2%;
     float:left;
     width: 40%;
-
 }
+
+
 #intro{
     width: 40%;
     float: right;
     padding-right:10%;
-}
-#intro h1{
-    font-family: 'Lexend', sans-serif;
-    color:614421;
-}
-#intro p{
-    font-family: 'Indie Flower', cursive;
+    padding-top: 90px;
 }
 
 #currentWork{
@@ -86,6 +91,11 @@ html,body {
     margin-left: 10px;
     margin-right: 10px;
     text-align: center;
+}
+
+#currentWork p{
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 #currentWork h1{
@@ -118,14 +128,6 @@ html,body {
     padding-top: 10%;
     float:left;
     width: 30%;
-}
-#aboutText h1{
-    font-family: 'Lexend', sans-serif;
-    color:614421;
-    
-}
-#aboutText p{
-     font-family: 'Indie Flower', cursive;
 }
 
 #aboutImg{
@@ -176,11 +178,10 @@ html,body {
 #contact{
     background-color:B9C8D6;
     text-align: center;
+    height: 450px;
 }
 
 #contact h1{
-    color:614421;
-    font-family: 'Lexend', sans-serif;
     text-align: center;
     padding-top: 40px;
 }
@@ -191,8 +192,14 @@ html,body {
 
 #contact p{
     color:white;
+    font-family: 'Open Sans', sans-serif;
     margin-left: 50px;
     margin-right: 50px;
+}
+
+#contact img {
+    width: 50px;
+    height: 50px;
 }
 
 input{
@@ -204,10 +211,15 @@ input{
     border-radius: 10px;
 }
 
-#footer{
-    padding: 30px;
-    height:100px;
-    text-align: center;
+button {
+    margin: 20px;
+    width: 20%;
+    height: 20px;
+    background-color:9FAF70; 
+    border:0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 800;
 }
 
 

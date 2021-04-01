@@ -2,11 +2,14 @@
 <html lang="en">
 
 <head>
-<meta charset ="utf-8">
-<title>GraceZhang</title>
-<link rel="stylesheet"href="A1styles.css"/>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="text/javascript" src="processing.js"></script>
+    <meta charset ="utf-8">
+    <title>GraceZhang</title>
+    <link rel="stylesheet"href="A1styles.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script type="text/javascript" src="processing.js"></script>
 </head>
 
 <body>
@@ -27,30 +30,38 @@
             </div>
     </div>
     <div id="helloPage">
-        <div id="hello-img">
+        <div id="helloImg">
             <canvas data-processing-sources="processing/bobby.pde"></canvas>
             <!-- <img src="img/hello.png"> -->
+            <h3>BOBBY</h3>
+            <p>
+            Next to it is the work "bobby" I made in my first year, using processing. You can slide the mouse and click see his changes.</p>
         </div>
         <div id="intro">
             <h1>Wellcome To My Website!</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Welcome to my website. I am a Messi sophomore student. This website covers my daily life and my work. Hope you enjoy it. </p>
+
         </div>
     </div>
     <div id="currentWork">
         <h1>CURRENT WORK</h1>
+        <p>
+These are my recent works. The first line is my usual drawing exercises. I am learning to create with ipad recently. This is a very good design tool I like very much. I really like the style of painting. The second line is the homework I studied for vcd this year, and vcd is a 12-page booklet about Wellington. I really enjoy printing out the digital version to a the phycial things, and I feel a sense of accomplishment.</p>
         <div id="img-container">
-            <img src="img/D1.png">
-            <img src="img/D2.jpg">
-            <img src="img/D3.jpeg">
-            <img src="img/wb1.png">
-            <img src="img/wb2.png">
-            <img src="img/wb3.png"> 
+            <a data-fancybox="gallery" href="img/gallary/b_1.png"><img src="img/gallary/s_1.png"></a>
+            <a data-fancybox="gallery" href="img/gallary/b_2.png"><img src="img/gallary/s_2.png"></a>
+            <a data-fancybox="gallery" href="img/gallary/b_3.png"><img src="img/gallary/s_3.png"></a>
+            <a data-fancybox="gallery" href="img/gallary/b_wb1.png"><img src="img/gallary/s_wb1.png"></a>
+            <a data-fancybox="gallery" href="img/gallary/b_wb2.png"><img src="img/gallary/s_wb2.png"></a>
+            <a data-fancybox="gallery" href="img/gallary/b_wb3.png"><img src="img/gallary/s_wb3.png"></a>
         </div>
     </div>
     <div id="about">
         <div id="aboutText">
             <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>
+My name is Grace Zhang, and I’m a second year design student at Massey University.  I am a person who loves life and likes to observe my surroundings. During my two years of study, I learned how to solve problems, as well as design ideas and innovation.Currently I live in Brooklyn with my friends, I like lively places. In my spare time, I like to read casual books and go to second-hand stores.I enjoy the time when reading makes my mind and body quiet. I also like to explore treasures in second-hand stores.
+</p>
         </div>
         <div id="aboutImg">
             <img src="img/aboutme4.png">
@@ -63,46 +74,44 @@
                 <img src="img/L1.jpeg">
                 <div class='what-text'>
                     <h4>Book</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                    <p>In my free time, I like to sit in the sun and read a book. This is my most healing moment. </p>
                 </div>
             </div>
             <div>
                 <img src="img/L2.jpeg">
                 <div class='what-text'>
                     <h4>Xiao Long Bao</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                    <p>As a Chinese, my favorite food is Xiaolongbao. I can cook most Chinese dishes, but Xiaolongbao requires a high level of skill, so I can usually eat it in restaurants. </p>
                 </div>
             </div>
             <div>
                 <img src="img/L3.jpeg">
                 <div class='what-text'>
                     <h4>Thrift</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
+                    <p>In New Zealand, I learned second-hand shopping. Not only is it environmentally friendly, but I can often find treasures. I really like vintage and fashionable clothes, so thrift shop is where I often go shopping. </p>
                 </div>
             </div>
         </div>
     </div>
     <div id="contact">
-        <h1> CONTACT ME</h1>
+        <h1> Follow Along!</h1>
 
         <div id="info">
             <form>
-                <input type="text" name="name" placeholder="Name(Required)"> 
-                <input type="text" name="email" placeholder="Email(Required)"> 
-                <input type="text" name="subject" placeholder="subject">
+                <input type="text" name="name" placeholder="First Name"> 
+                <input type="text" name="name" placeholder="Last Name"> 
+                <input type="text" name="email" placeholder="Email">
+                <button type="submit">Submit</button>
             </form>
         </div>
         <div id="contact-info">
             <h3>Contact Infomation</h3>
-            <p>quam eget molestie commodo.Quisque luctus, quam eget molestie commodo, lacus purus cursusQuisque luctus, quam eget molestie commodo.Quisque luctus, quam eget molestie commodo, lacus purus cursusQuisque luctus, quam eget molestie commodo.</p>
+            <a href="https://www.facebook.com"><img src="img/facebook.png"></a>
+            <a href="https://www.instagram.com"><img src="img/insta.png"></a>
             <p>Massey University Wellington</p>
             <p>03528 331 86 35</p>
             <p>sq.zhang@icloud.com</p>
         </div>
     </div>
-    <div id="footer">
-    <p>Massey University Wellington</p>
-    
-</div>
   
 </body>
