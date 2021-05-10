@@ -9,8 +9,16 @@
         say hello
     </div>
 <script>
-    document.getElementById('hello_btn').addEventListener('click', () => {
+    var x =1;
+        var helloButton= document.getElementById('hello_btn');
+        document.getElementById('hello_btn').addEventListener('click', () => {
         alert('hello');
+        document.getElementById('hello_btn').style.color = 'yellow';
+        document.getElementById('hello_btn').style.backgroundColor = 'orange';
+        console.log('colour changes applied');
+        console.log(x);
+        x ++;
+
 });
 </script>
 </body>
