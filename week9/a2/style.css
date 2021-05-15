@@ -1,4 +1,4 @@
-* { outline: white 1px solid }
+
 img {
     /* https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container */
     max-width: 100%;
@@ -22,19 +22,64 @@ img {
             height: 400px;
         }
         
-        .clothes{
-            height: 100px;
+        
+        .studio{
+            background-color: #B2875C;
+            height: 600px;
         }
+     
+           
+     
+        
+        
 
         @media (min-width: 578px) {
-            .clothes {height:100px;}
+            .clothes {height:230px;padding:  50px 0 0 70px;}
+            .new {height:750px}
+            .story{height: 700px;padding: 80px 0 0 0}
             
         }
            
         @media (min-width: 768px) {
-            .clothes {height: 100px;}
+            .clothes {height: 350px;padding: 70px 0 0 20px ;}
+            .new {height:800px}
+            
         }
             
         @media (min-width: 992px) {
             .clothes {height: 400px; padding: 50px}
+            .new {height:470px}
+            .story{
+                height: 500px;padding: 170px 0 0 90px
+            }
+            
         }
+
+.row h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.row h3 {
+    color: white;
+    text-align: center;
+}
+.row p1 {
+    
+    font-weight:bold;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
