@@ -1,0 +1,35 @@
+* { outline: white 1px solid }
+
+        .title {
+            background-color: #EDECEA;
+            height: 90px;
+        }
+        .brown {
+            background-color: #584724;
+            height: 40px;
+        }
+        .hero{
+            background-color:  #999691;
+            height: 300px;
+        }
+        .new{
+            background-color: #BEAD9B;
+            height: 400px;
+        }
+        
+        .clothes{
+            background-color: green;
+            height: 100px;
+        }
+
+        @media (min-width: 578px) {
+            .clothes {height:100px;}
+        }
+           
+        @media (min-width: 768px) {
+            .clothes {height: 100px;}
+        }
+            
+        @media (min-width: 992px) {
+            .clothes {height: 400px;}
+        }
