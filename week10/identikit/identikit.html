@@ -92,6 +92,55 @@
             eye_right_y -= 10;
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
+        
+        // move eyes down event listener
+        document.getElementById('eyes_down_btn').addEventListener('click', () => {
+            eye_left_y += 10;
+            document.getElementById('eye_left').style.top = eye_left_y + 'px';
+            eye_right_y += 10;
+            document.getElementById('eye_right').style.top = eye_right_y + 'px';
+        });
+        
+         // move eyes_closer_together 
+        document.getElementById('eyes_closer_together').addEventListener('click', () => {
+            eye_left_x += 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            
+            eye_right_x -= 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
+        });
+        
+         // move eyes_further_apart
+        document.getElementById('eyes_further_apart').addEventListener('click', () => {
+            eye_left_x += 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            
+            eye_right_x -= 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
+        });
+        
+         // move hollow_eyes
+        document.getElementById('hollow_eyes').addEventListener('click', () => {
+            eye_left_x += 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            
+            eye_right_x -= 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
+        });
+
+        
+        // mouth coordinate variables
+        var mouth_x = 100;
+        var mouth_y = 250;
+        
+        // set initial mouth
+        document.getElementById('mouth').style.left = mouth_x + 'px';
+        document.getElementById('mouth').style.top = mouth_y + 'px';
+        
+        //  move_mouth_up
+        document.getElementById('move_mouth_up').addEventListener('click', () => {
+            mouth_y -= 10;   document.getElementById('mouth').style.top = mouth_y + 'px';
+ 
+            
+            
+             });
+
+        
+        
     </script>
 
 </body>
