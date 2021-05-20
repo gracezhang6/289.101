@@ -61,8 +61,8 @@
         <button id="no_right_eye">no right eye</button>
         <button id="move_mouth_up">move mouth up</button>
         <button id="move_mouth_down">move mouth down</button>
-        <button id= "happ_mouth">happy mouth</button>
-        <button id= "sad mouth">sad mouth</button>
+        <button id= "happy_mouth">happy mouth</button>
+        <button id= "sad_mouth">sad mouth</button>
         <button id= "reset_face">reset face</button>
     </div>
 
@@ -93,7 +93,7 @@
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
         
-        // move eyes down event listener
+         // move eyes down event listener
         document.getElementById('eyes_down_btn').addEventListener('click', () => {
             eye_left_y += 10;
             document.getElementById('eye_left').style.top = eye_left_y + 'px';
@@ -101,46 +101,86 @@
             document.getElementById('eye_right').style.top = eye_right_y + 'px';
         });
         
-         // move eyes_closer_together 
+         // move eyes closer event listener
         document.getElementById('eyes_closer_together').addEventListener('click', () => {
-            eye_left_x += 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
-            
-            eye_right_x -= 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
+            eye_left_x += 10;
+            document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            eye_right_x -= 10;
+            document.getElementById('eye_right').style.left = eye_right_x + 'px';
         });
         
-         // move eyes_further_apart
+        // move eyes further event listener
         document.getElementById('eyes_further_apart').addEventListener('click', () => {
-            eye_left_x += 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
-            
-            eye_right_x -= 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
+            eye_left_x -= 10;
+            document.getElementById('eye_left').style.left = eye_left_x + 'px';
+            eye_right_x += 10;
+            document.getElementById('eye_right').style.left = eye_right_x + 'px';
         });
         
-         // move hollow_eyes
+         // make hollow eyes event listener
+        // https://www.w3schools.com/Jsref/prop_img_src.asp
         document.getElementById('hollow_eyes').addEventListener('click', () => {
-            eye_left_x += 10;   document.getElementById('eye_left').style.left = eye_left_x + 'px';
-            
-            eye_right_x -= 10;  document.getElementById('eye_right').style.left = eye_right_x + 'px';
+            document.getElementById('eye_left').src = 'eye_hollow.svg';
+            document.getElementById('eye_right').src = 'eye_hollow.svg';
         });
-
+        
+                
+         // make solid eyes event listener
+        document.getElementById('solid_eyes').addEventListener('click', () => {
+            document.getElementById('eye_left').src = 'eye_solid.svg';
+            document.getElementById('eye_right').src = 'eye_solid.svg';
+        });
+        
+        // make no right eyes event listener
+        // https://stackoverflow.com/questions/6802683/js-how-to-remove-image-with-javascript
+        document.getElementById('no_right_eye').addEventListener('click', () => {
+            document.getElementById('eye_right').src = '';
+        });
         
         // mouth coordinate variables
         var mouth_x = 100;
         var mouth_y = 250;
         
+        
         // set initial mouth
         document.getElementById('mouth').style.left = mouth_x + 'px';
         document.getElementById('mouth').style.top = mouth_y + 'px';
         
-        //  move_mouth_up
+        // make mouth up event listener
         document.getElementById('move_mouth_up').addEventListener('click', () => {
-            mouth_y -= 10;   document.getElementById('mouth').style.top = mouth_y + 'px';
- 
-            
-            
-             });
+            mouth_y -= 10;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+        });
 
+        // make mouth down event listener
+        document.getElementById('move_mouth_down').addEventListener('click', () => {
+            mouth_y += 10;
+            document.getElementById('mouth').style.top = mouth_y + 'px';
+        });
         
+        // make happy mouth event listener
+        document.getElementById('happy_mouth').addEventListener('click', () => {
+            document.getElementById('mouth').src = 'mouth_happy.svg';
+        });
         
+        // make happy mouth event listener
+        document.getElementById('sad_mouth').addEventListener('click', () => {
+            document.getElementById('mouth').src = 'mouth_sad.svg';
+        });
+        
+        // make face reset event listener
+        document.getElementById('reset_face').addEventListener('click', () => {
+            document.getElementById('eye_left').style.left = '100px';
+            document.getElementById('eye_left').style.top = '100px';
+            document.getElementById('eye_right').style.left = '250px';
+            document.getElementById('eye_right').style.top = '100px';
+            document.getElementById('mouth').style.left = '100px';
+            document.getElementById('mouth').style.top = '250px';
+            
+            document.getElementById('mouth').src = 'mouth_happy.svg';
+            document.getElementById('eye_left').src = 'eye_solid.svg';
+            document.getElementById('eye_right').src = 'eye_solid.svg';
+        });
     </script>
 
 </body>
