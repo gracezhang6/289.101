@@ -9,7 +9,7 @@ img {
     height:120px;
 }
 
-newTitle{
+.newTitle{
     padding-left: 30px;
 }
 
@@ -21,6 +21,15 @@ newTitle{
     text-align: left;
   
 }
+
+.links a{
+ 
+    color:white;
+    text-decoration: none;
+    padding:50px;
+    font-size: 0.9rem;
+    
+}
     
 .hero {
     background-color: #999691;
@@ -30,7 +39,8 @@ newTitle{
 }
 
 .brown {
-    background-color: #584724;
+    background-color: #B2875C;
+    background-color: ;
     height: 90px;
 }
 
@@ -42,11 +52,11 @@ newTitle{
 }
 
 .brown h3{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .links{
-    padding-left: 50px;
+    padding-left: 200px;
 }
 
 .new {
@@ -84,13 +94,13 @@ newTitle{
     height: 900px;
 }
 #studiohead{
-    height:140px;
-    background-color: white;
+    height:100px;
 }
 
 .studio h1{
     text-align: center;
     padding-top: 35px;
+    color: white;
    
 }
 
@@ -99,9 +109,59 @@ newTitle{
 }
 
 .footer {
-    height: 350px;
+    height: 390px;
     background-color: #BEAD9B;
     text-align: center;
+}
+#contact-info{
+    
+}
+
+#contact{
+    background-color:B9C8D6;
+    text-align: center;
+    height: 450px;
+}
+
+#contact h1{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#contact h3{
+    color: white;
+}
+
+#contact p{
+    color:white;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#contact img {
+    width: 50px;
+    height: 50px;
+}
+
+input{
+    margin: 20px;
+    width: 20%;
+    height: 20px;
+    border:0;
+    background-color:white; 
+    border-radius: 10px;
+}
+
+button {
+    margin: 20px;
+    width: 20%;
+    height: 20px;
+    background-color:9FAF70; 
+    border:0;
+    border-radius: 10px;
+    color: #584724;
+    font-weight: 800;
 }
 
 @media (min-width: 578px) {
