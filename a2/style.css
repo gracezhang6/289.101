@@ -1,95 +1,168 @@
-
 img {
     /* https://stackoverflow.com/questions/3029422/how-do-i-auto-resize-an-image-to-fit-a-div-container */
     max-width: 100%;
     max-height: 100%;
 }
 
+.header{
+    width: 99%;
+    height:120px;
+}
+
+newTitle{
+    padding-left: 30px;
+}
+
 .title {
     background-color: #EDECEA;
     height: 90px;
-    }
+}
+.title h3{
+    text-align: left;
+  
+}
+    
+.hero {
+    background-color: #999691;
+    /* https://stackoverflow.com/questions/8200204/fit-background-image-to-div */
+    background-image: url("./image/cover1.png");
+    background-size: cover;
+}
+
 .brown {
     background-color: #584724;
-    height: 40px;
-    }
-.hero{
-    background-color:  #999691;
-    height: 500px;
-    } 
-#hero{
-    margin: 0;
-    height: 500px;
-    
+    height: 90px;
 }
-.new{
+
+.brown img {
+    float: right;
+    height: 30px;
+    color: white;
+    padding-right: 50px;
+}
+
+.brown h3{
+    padding-top: 10px;
+}
+
+.links{
+    padding-left: 50px;
+}
+
+.new {
     background-color: #BEAD9B;
     height: 400px;
-    }
-        
-        
-.studio{
-    background-color: #B2875C;
-    height: 800px;
-    }
-.footer{
-    height: 100px;
+}
+.newtitle{
+    height: 90px;
     background-color: #BEAD9B;
+    padding-top: 60px;
+    padding-left: 60px;
 }
 
-     
-           
-     
-        
-        
-
-        @media (min-width: 578px) {
-            .clothes {height:230px;padding:  50px 0 0 70px;}
-            .new {height:750px}
-            .story{height: 700px;padding: 80px 0 0 0}
-            
-        }
-           
-        @media (min-width: 768px) {
-            .clothes {height: 350px;padding: 70px 0 0 20px ;}
-            .new {height:800px}
-            
-        }
-            
-        @media (min-width: 992px) {
-            .clothes {height: 400px; padding: 50px}
-            .new {height:470px}
-            .story{
-                height: 500px;padding: 170px 0 0 90px
-            }
-            
-        }
-
-
-.row h1{
+.row h1 {
     text-align: center;
     font-weight: bold;
     padding: 10px;
 }
+
 .row h3 {
     color: white;
     text-align: center;
 }
-.row p1 {
-    
-    font-weight:bold;
-    
+
+.clothes {
+    text-align: center;
+}
+
+.clothes p1 {
+    font-weight: bold;
+}
+
+.studio {
+    background-color: #B2875C;
+    height: 900px;
+}
+#studiohead{
+    height:140px;
+    background-color: white;
+}
+
+.studio h1{
+    text-align: center;
+    padding-top: 35px;
+   
+}
+
+.story {
+    text-align: center;
+}
+
+.footer {
+    height: 350px;
+    background-color: #BEAD9B;
+    text-align: center;
+}
+
+@media (min-width: 578px) {
+    p {
+        font-size: x-small;
     }
+    .hero {
+        height: 300px;
+    }
+    .clothes {
+        height: 230px;
+        padding: 25px 0 25px 20px;
+    }
+    .clothes p1 {
+        padding: 0;
+    }
+    .new {
+        height: 750px
+    }
+    .story {
+        height: 700px;
+        padding: 80px 0 0 0
+    }
+}
 
+@media (min-width: 768px) {
+    p {
+        font-size: smaller;
+    }
+    .hero {
+        height: 400px;
+    }
+    .clothes {
+        height: 350px;
+        padding: 70px 0 0 20px;
+    }
+    .new {
+        height: 800px
+    }
+    .story {
+        height: 400px;
+        padding: 10px;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 992px) {
+    p {
+        font-size: small;
+    }
+    .hero {
+        height: 500px;
+    }
+    .clothes {
+        height: 450px;
+        padding: 50px
+    }
+    .new {
+        height: 470px
+    }
+    .story {
+        height: 500px;
+        padding: 20px;
+    }
+}
