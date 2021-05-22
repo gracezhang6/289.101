@@ -9,6 +9,39 @@ img {
     height:120px;
 }
 
+.brown {
+    background-color: #B2875C;
+    background-color: ;
+    height: 90px;
+}
+
+
+.brown img {
+    float: right;
+    height: 30px;
+    color: white;
+    padding-right: 50px;
+}
+
+.brown h3{
+    padding-top: 15px;
+    
+}
+
+.links{
+    padding-left: 200px;
+}
+
+.links a{
+ 
+    color:white;
+    text-decoration: none;
+    padding:50px;
+    font-size: 0.9rem;
+    
+}
+    
+
 .newTitle{
     padding-left: 30px;
 }
@@ -22,15 +55,7 @@ img {
   
 }
 
-.links a{
- 
-    color:white;
-    text-decoration: none;
-    padding:50px;
-    font-size: 0.9rem;
-    
-}
-    
+
 .hero {
     background-color: #999691;
     /* https://stackoverflow.com/questions/8200204/fit-background-image-to-div */
@@ -38,26 +63,6 @@ img {
     background-size: cover;
 }
 
-.brown {
-    background-color: #B2875C;
-    background-color: ;
-    height: 90px;
-}
-
-.brown img {
-    float: right;
-    height: 30px;
-    color: white;
-    padding-right: 50px;
-}
-
-.brown h3{
-    padding-top: 15px;
-}
-
-.links{
-    padding-left: 200px;
-}
 
 .new {
     background-color: #BEAD9B;
